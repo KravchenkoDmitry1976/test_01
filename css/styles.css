@@ -1,0 +1,158 @@
+/*================ /RESET ===============*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+button {
+    cursor: pointer;
+}
+address {
+    font-style: normal;
+}
+img {
+    display: block;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*================ /ROOT ===============*/
+/*================ /CONTAINER ===============*/
+.container{
+    width: 1280px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*================ /START MARYNA ===============*/
+/*================ /FINISH MARYNA ===============*/
+
+/*================ /START KSENIIA ===============*/
+/*================ FINISH KSENIIA ===============*/
+
+/*================ START VITALIY ===============*/
+/*================ FINISH VITALIY ===============*/
+
+/*================ START DMYTRO K ===============*/
+.customer-reviews {
+    background-color: #ffffff;
+    background-image:  url(../image/Customers-backround.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 64px;
+    
+}
+.container {
+}
+.customer-reviews-title {
+font-weight: 700;
+font-size: 42px;
+line-height: 1.67;
+color: #2C2C2C;
+margin-bottom: 20px;
+}
+.customer-reviews-txt {
+font-size: 16px;
+line-height: 1.19;
+color: #2C2C2C;
+margin-bottom: 32px;
+}
+.customer-reviews-form-txt{
+font-size: 16px;
+line-height: 1.50;
+color: #2C2C2C;
+margin-bottom: 24px;
+width: 656px;
+}
+.customer-reviews-list {
+    display: flex;
+    gap: 140px;
+    margin-bottom: 200px;
+}
+.customer-reviews-item {
+}
+.customer-reviews-box {
+    width: 501px;
+    padding: 14px;
+    background-color: #ffffff;
+    border-radius: 0px 16px 16px 16px;
+
+}
+
+.customer-icon {
+    fill:  #FFE550;
+    margin-bottom: 28px;
+}
+.customer-icon-item {
+}
+.customer-box-txt {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.67;
+color: #2C2C2C;
+margin-bottom: 40px;
+
+}
+.customer-card-box{
+    display: flex;
+    gap: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 160px;
+  position: relative;
+   
+}
+.customer-card-box::before{
+   content: "";
+    height: 100%;
+    position: absolute;
+    border: 1px solid rgba(126, 177, 1, 1);
+    left: 157px;
+}
+.customer-card{
+    padding-right: 3px;
+    
+    
+}
+.customer-box-img {
+}
+.customer-box-title {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.50;
+color: #2C2C2C;
+margin-bottom: 2px;
+}
+.customer-box-subtitle{
+    font-size: 14px;
+    line-height: 1.50;
+    color: #2C2C2C  
+}
+.customer-reviews-form {
+}
+.customer-reviews-btn {
+}
+.customer-mail{
+    width: 394px;
+    height: 42px;
+    border-radius: 15px;
+    border: 0.85px solid  rgba(255, 229, 80, 1);
+}
+/*================ FINISH DMYTRO K ===============*/
+
+/*================ START DMYTRO ZHD ===============*/
+/*================ FINISH DMYTRO ZHD ===============*/
