@@ -15,7 +15,7 @@
     </head>
     <body>
       <section class="customer-reviews">
-        <section class="container">
+        <div class="container">
         <h2 class="customer-reviews-title">What our Customers Say</h2>
         <p class="customer-reviews-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <ul class="customer-reviews-list">
@@ -54,14 +54,21 @@
             </div>
           </li>
         </ul>
-        <form  class="customer-reviews-form">
-          <h2 class="customer-reviews-title">Subscribe To Get Special Offers</h2>
-        <p class="customer-reviews-form-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        </div>
+      </section>
+        <section class="subscribe">
+          <div class="container">
+          <h2 class="subscribe-title">Subscribe To Get Special Offers</h2>
+          <p class="subscribe-form-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Suspendisse varius enim in eros elementum tristique.</p>
-            <label for="">
-        <input type="email"  name="user-email" placeholder="Enter your email" required class="customer-mail">
+            <form  class="subscribe-form">
+              <div class="subscribe-form-box">
+            <label for="user-email">
+        <input type="email" class="subscribe-mail"  name="user-email" id="user-email" placeholder="Enter your email" required>
+        <button type="submit" class="subscribe-form-btn">Subscribe</button>
         </label>
-        <button type="submit" class="customer-reviews-btn">Subscribe</button>
+        <img class="subscribe-photo" src="./image/banan.png" alt="banan-photo" width="608" height="266">
+        </div>
         </form>
       </div>
       </section>
