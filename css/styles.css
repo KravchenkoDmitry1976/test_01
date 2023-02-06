@@ -49,7 +49,7 @@ body{
 .customer-reviews {
     background-color: #ffffff;
     background-image: url(../image/Customers-backround.jpg);
-    background-position: top 0 left 220px;
+    background-position: center;
     background-repeat: no-repeat;
     padding-top: 100px;
     padding-bottom: 200px;
