@@ -26,6 +26,9 @@ img {
 body{
     font-family: 'Roboto', sans-serif;
 }
+.link{
+    text-decoration: none;
+}
 /*================ /ROOT ===============*/
 /*================ /CONTAINER ===============*/
 .container{
